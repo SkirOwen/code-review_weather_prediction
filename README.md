@@ -13,3 +13,18 @@ Install the dependencies from the `requirements.txt`
 conda install -c conda-forge --file requirements.txt
 ```
 
+## Datasets
+
+Create a folder `datasets`
+Extract the archive `demo.rar` in the folder `datasets`  
+To have this structure:
+```
+.
+├── datasets
+│ 	├── cmorph
+│ 	└── ecmwf
+└── weather
+    ├── tests
+    ├── utils
+    └── weather_object
+```
