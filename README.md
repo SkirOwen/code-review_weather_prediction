@@ -17,7 +17,7 @@ conda install -c conda-forge --file requirements.txt
 
 Create a folder `datasets`
 Extract the archive `demo.rar` in the folder `datasets`  
-To have this structure:
+You should have this structure:
 ```
 .
 ├── datasets
