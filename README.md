@@ -1,30 +1,15 @@
 ## Installation
 
 ### Anaconda
-[OUT OF DATE] install the library in the requirements.txt with `conda` (recommended) or `pip`  
 
-Only tested with `python=3.8`
-
+Create a virtual env  
 ```shell
-conda env create -f environment.yml
-conda activate irp
-```
-Verify that the new environment was installed correctly
-```shell
-conda env list
-# or
-conda info -envs
+conda create -n weather python=3.10
 ```
 
-#### Dependencies
+Install the dependencies from the `requirements.txt`
 
-See `requirements.txt`,  
-`tensorboar` to see the logs in run  
-`pynio` is optional and has strong dependencies
-
-#### Tensorbord
-
-Simply run:
 ```shell
-tensorboard --logdir=runs
+conda install -c conda-forge --file requirements.txt
 ```
+
